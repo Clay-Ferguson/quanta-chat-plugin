@@ -1,4 +1,4 @@
-# Quanta Developer Guide
+# Quanta Chat Developer Guide
 
 NOTE: This document is a work in progress, and will eventually contain all the technical information about the chat plugin.
 

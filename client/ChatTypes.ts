@@ -1,4 +1,4 @@
-import { ChatMessage, Contact, User } from "../../../common/types/CommonTypes";
+import { ChatMessage, Contact, User } from "@common/types/CommonTypes";
 import { RoomHistoryItem } from "@client/AppServiceTypes";
 import { GlobalState } from "@client/GlobalState";
 import { gd as gdBase, gs as gsBase, GlobalAction, useGlobalState as useGlobalStateBase } from "@client/GlobalState.tsx";

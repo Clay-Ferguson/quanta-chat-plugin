@@ -7,7 +7,7 @@ import { useGlobalState } from '../ChatTypes';
 import {util} from '@client/Util';
 import { scrollEffects } from '@client/ScrollEffects';
 import AvatarImageComp from '@client/components/AvatarImageComp';
-import { ChatMessage, Contact, MessageStates } from '../../../../common/types/CommonTypes';
+import { ChatMessage, Contact, MessageStates } from '@common/types/CommonTypes';
 import appMessages from '../AppMessages';
 import appUsers from '@client/AppUsers';
 

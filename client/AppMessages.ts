@@ -1,7 +1,7 @@
-import { canon } from "../../../common/Canonicalizer.ts";
-import { crypt } from "../../../common/Crypto.ts";
-import { ChatMessage, ChatMessageIntf, MessageStates } from "../../../common/types/CommonTypes.ts";
-import { DeleteMessage_Request, GetMessageIdsForRoom_Response, GetMessagesByIds_Response, SendMessages_Request } from "../../../common/types/EndpointTypes.ts";
+import { canon } from "@common/Canonicalizer.ts";
+import { crypt } from "@common/Crypto.ts";
+import { ChatMessage, ChatMessageIntf, MessageStates } from "@common/types/CommonTypes.ts";
+import { DeleteMessage_Request, GetMessageIdsForRoom_Response, GetMessagesByIds_Response, SendMessages_Request } from "@common/types/EndpointTypes.ts";
 import appRooms from "./AppRooms.ts";
 import { DBKeys } from "@client/AppServiceTypes.ts";
 import { alertModal } from "@client/components/AlertModalComp.tsx";

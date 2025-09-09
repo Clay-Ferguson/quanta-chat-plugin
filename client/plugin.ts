@@ -9,7 +9,7 @@ import RoomsPage from "./pages/RoomsPage";
 import RoomsAdminPage from "./pages/RoomsAdminPage";
 import QuantaChatPage from "./pages/QuantaChatPage";
 import ChatSettingsPageComp from './comps/SettingsPageComp';
-import { Contact, User, UserProfile } from '../../../common/types/CommonTypes';
+import { Contact, User, UserProfile } from '@common/types/CommonTypes';
 import { ChatGlobalState, ChatPageNames } from './ChatTypes';
 import { idb } from '@client/IndexedDB';
 import UserProfileChatComp from './UserProfileChatComp';

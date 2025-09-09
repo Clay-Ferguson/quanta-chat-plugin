@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserEdit, faTrash, faUser } from '@fortawesome/free-solid-svg-icons';
 import HexKeyComp from '@client/components/HexKeyComp';
 import AvatarImageComp from '@client/components/AvatarImageComp';
-import { Contact } from '../../../../common/types/CommonTypes';
+import { Contact } from '@common/types/CommonTypes';
 import { confirmModal } from '@client/components/ConfirmModalComp';
 import { alertModal } from '@client/components/AlertModalComp';
 import { DBKeys } from '@client/AppServiceTypes';

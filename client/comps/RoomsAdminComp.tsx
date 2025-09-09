@@ -3,7 +3,7 @@ import { useGlobalState } from '../ChatTypes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { httpClientUtil } from '@client/HttpClientUtil';
-import { DeleteRoom_Request, GetRoomInfo_Response } from '../../../../common/types/EndpointTypes';
+import { DeleteRoom_Request, GetRoomInfo_Response } from '@common/types/EndpointTypes';
 import { alertModal } from '@client/components/AlertModalComp';
 import { confirmModal } from '@client/components/ConfirmModalComp';
 import appRooms from '../AppRooms';

@@ -1,9 +1,9 @@
-import { ChatMessage, KeyPairHex, User } from '../../../common/types/CommonTypes.ts';
-import {WebRTCAck, WebRTCAnswer, WebRTCBroadcast, WebRTCDeleteMsg, WebRTCICECandidate, WebRTCJoin, WebRTCOffer, WebRTCRoomInfo, WebRTCUserJoined, WebRTCUserLeft} from '../../../common/types/WebRTCTypes.ts';
+import { ChatMessage, KeyPairHex, User } from '@common/types/CommonTypes.ts';
+import {WebRTCAck, WebRTCAnswer, WebRTCBroadcast, WebRTCDeleteMsg, WebRTCICECandidate, WebRTCJoin, WebRTCOffer, WebRTCRoomInfo, WebRTCUserJoined, WebRTCUserLeft} from '@common/types/WebRTCTypes.ts';
 import appMessages from './AppMessages.ts';
 import {util} from '@client/Util.ts';
-import {crypt} from '../../../common/Crypto.ts';  
-import { canon } from '../../../common/Canonicalizer.ts';
+import {crypt} from '@common/Crypto.ts';  
+import { canon } from '@common/Canonicalizer.ts';
 import { alertModal } from '@client/components/AlertModalComp.tsx';
 import { gd } from "./ChatTypes.ts"
 

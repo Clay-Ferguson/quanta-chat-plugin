@@ -1,5 +1,5 @@
 import { useGlobalState } from './ChatTypes';
-import { UserProfile } from '../../../common/types/CommonTypes';
+import { UserProfile } from '@common/types/CommonTypes';
 import { addContact } from './Contacts';
 
 interface UserProfileChatCompProps {

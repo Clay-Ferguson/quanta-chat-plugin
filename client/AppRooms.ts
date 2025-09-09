@@ -1,4 +1,4 @@
-import { ChatMessage, KeyPairHex, User } from "../../../common/types/CommonTypes.ts";
+import { ChatMessage, KeyPairHex, User } from "@common/types/CommonTypes.ts";
 import { app } from "@client/AppService.ts";
 import { DBKeys, RoomHistoryItem } from "@client/AppServiceTypes.ts";
 import { confirmModal } from "@client/components/ConfirmModalComp.tsx";

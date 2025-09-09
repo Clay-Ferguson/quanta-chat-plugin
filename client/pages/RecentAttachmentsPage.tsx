@@ -1,16 +1,16 @@
-import LogoBlockComp from '../../../../client/components/LogoBlockComp';
-import BackButtonComp from '../../../../client/components/BackButtonComp';
+import LogoBlockComp from '@client/components/LogoBlockComp';
+import BackButtonComp from '@client/components/BackButtonComp';
 import { useState, useEffect } from 'react';
 import { useGlobalState } from '../ChatTypes';
-import HexKeyComp from '../../../../client/components/HexKeyComp';
+import HexKeyComp from '@client/components/HexKeyComp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash} from '@fortawesome/free-solid-svg-icons';
-import AvatarImageComp from '../../../../client/components/AvatarImageComp';
-import { util } from '../../../../client/Util';
-import { httpClientUtil } from '../../../../client/HttpClientUtil';
+import AvatarImageComp from '@client/components/AvatarImageComp';
+import { util } from '@client/Util';
+import { httpClientUtil } from '@client/HttpClientUtil';
 import { AttachmentInfo } from '../../../../common/types/CommonTypes';
 import { GetRecentAttachments_Response } from '../../../../common/types/EndpointTypes';
-import { confirmModal } from '../../../../client/components/ConfirmModalComp';
+import { confirmModal } from '@client/components/ConfirmModalComp';
 import appMessages from '../AppMessages';
 import { formatDate } from '../../../../common/CommonUtils';
 

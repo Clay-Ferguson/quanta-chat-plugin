@@ -1,5 +1,5 @@
 import React from 'react';
-import { DBKeys, RoomHistoryItem, IClientPlugin } from "../../../client/AppServiceTypes";
+import { DBKeys, RoomHistoryItem, IClientPlugin } from "@client/AppServiceTypes";
 import appRooms from "./AppRooms";
 import { rtc } from "./WebRTC";
 import ContactsPage from "./pages/ContactsPage";
@@ -11,12 +11,12 @@ import QuantaChatPage from "./pages/QuantaChatPage";
 import ChatSettingsPageComp from './comps/SettingsPageComp';
 import { Contact, User, UserProfile } from '../../../common/types/CommonTypes';
 import { ChatGlobalState, ChatPageNames } from './ChatTypes';
-import { idb } from '../../../client/IndexedDB';
+import { idb } from '@client/IndexedDB';
 import UserProfileChatComp from './UserProfileChatComp';
-import SettingsPage from '../../../client/pages/SettingsPage';
-import { app } from '../../../client/AppService';
+import SettingsPage from '@client/pages/SettingsPage';
+import { app } from '@client/AppService';
 import { ChatAdminPageComp } from './ChatAdminPageComp';
-import DocViewerPage from '../../../client/pages/DocViewerPage';
+import DocViewerPage from '@client/pages/DocViewerPage';
 
 declare const CLIENT_HOST: string;
 declare const PORT: string;

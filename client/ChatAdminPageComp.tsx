@@ -1,7 +1,7 @@
 
-import { app } from '../../../client/AppService';
-import appUsers from '../../../client/AppUsers';
-import { promptModal } from '../../../client/components/PromptModalComp';
+import { app } from '@client/AppService';
+import appUsers from '@client/AppUsers';
+import { promptModal } from '@client/components/PromptModalComp';
 import { ChatPageNames } from './ChatTypes';
 
 /**

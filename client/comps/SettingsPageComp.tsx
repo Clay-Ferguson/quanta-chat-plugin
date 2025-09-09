@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { DBKeys, PanelKeys } from "../../../../client/AppServiceTypes";
-import TitledPanelComp from "../../../../client/components/TitledPanelComp";
+import { DBKeys, PanelKeys } from "@client/AppServiceTypes";
+import TitledPanelComp from "@client/components/TitledPanelComp";
 import { gd, useGlobalState } from "../ChatTypes";
-import { idb } from "../../../../client/IndexedDB";
+import { idb } from "@client/IndexedDB";
 import { rtc } from "../WebRTC";
 import appRooms from "../AppRooms";
-import { alertModal } from "../../../../client/components/AlertModalComp";
+import { alertModal } from "@client/components/AlertModalComp";
 
 export default function ChatSettingsPageComp() {
     const gs = useGlobalState();

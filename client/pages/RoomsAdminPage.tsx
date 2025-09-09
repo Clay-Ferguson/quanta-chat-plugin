@@ -1,8 +1,8 @@
-import LogoBlockComp from '../../../../client/components/LogoBlockComp';
-import BackButtonComp from '../../../../client/components/BackButtonComp';
+import LogoBlockComp from '@client/components/LogoBlockComp';
+import BackButtonComp from '@client/components/BackButtonComp';
 import RoomsAdminComp from '../comps/RoomsAdminComp';
 import { useEffect } from 'react';
-import { util } from '../../../../client/Util';
+import { util } from '@client/Util';
 
 interface RoomsAdminPageProps {
     pluginTitle?: string;

@@ -70,7 +70,7 @@ class ChatServerPlugin implements IServerPlugin {
         context.app.post('/api/delete-message', httpServerUtil.verifyReqHTTPSignature, asyncHandler(chatSvc.deleteMessage));
         
         if (defaultPlugin === "chat") {
-            console.log('Chat plugin is the default plugin, serving index.html at root path(*).');
+            // console.log('Chat plugin is the default plugin, serving index.html at root path(*).');
             context.app.get('/', context.serveIndexHtml("QuantaChatPage"));
         }
 

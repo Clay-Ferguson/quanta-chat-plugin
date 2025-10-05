@@ -1,6 +1,6 @@
 import { RoomInfo } from "../../../../common/types/CommonTypes.js";
-import pgdb from "../../../../server/PGDB.js";
-import { runTrans } from "../../../../server/Transactional.js";
+import pgdb from "../../../../server/db/PGDB.js";
+import { runTrans } from "../../../../server/db/Transactional.js";
 
 /**
  * Database operations for managing chat rooms.

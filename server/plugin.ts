@@ -7,7 +7,7 @@ import { Request } from 'express';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import pgdb from '../../../server/PGDB.js';
+import pgdb from '../../../server/db/PGDB.js';
 import { UserProfileCompact } from "../../../common/types/CommonTypes.js";
 
 const __filename = fileURLToPath(import.meta.url);

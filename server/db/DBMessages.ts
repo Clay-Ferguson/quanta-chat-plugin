@@ -1,7 +1,7 @@
 import { ChatMessageIntf, MessageStates } from "../../../../common/types/CommonTypes.js";
 import { dbRoom } from "./DBRoom.js";
-import { getTransactionClient, runTrans } from '../../../../server/Transactional.js';
-import pgdb from '../../../../server/PGDB.js';
+import { getTransactionClient, runTrans } from '../../../../server/db/Transactional.js';
+import pgdb from '../../../../server/db/PGDB.js';
 
 /**
  * Database operations for handling chat messages.

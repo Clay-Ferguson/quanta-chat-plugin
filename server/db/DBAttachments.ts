@@ -1,5 +1,5 @@
 import { AttachmentInfo, FileBlob } from "../../../../common/types/CommonTypes.js";
-import pgdb from "../../../../server/PGDB.js";
+import pgdb from "../../../../server/db/PGDB.js";
 
 /**
  * Database operations for handling file attachments.

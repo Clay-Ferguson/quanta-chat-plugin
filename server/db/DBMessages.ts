@@ -169,7 +169,7 @@ class DBMessages {
      */
     saveMessages = async (roomName: string, messages: ChatMessageIntf[]): Promise<number> => {
         return await runTrans(async () => {
-        // Ensure room exists
+            // Ensure room exists
             const roomId = await dbRoom.getOrCreateRoom(roomName); 
             console.log('Got Room ID:', roomId);
 
